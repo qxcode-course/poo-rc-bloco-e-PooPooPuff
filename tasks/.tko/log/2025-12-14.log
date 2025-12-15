@@ -4,3 +4,27 @@
 2025-12-14 22:32:19, MOVE, v:1, k:poo@estacionamento, mode:DOWN
 2025-12-14 22:32:19, MOVE, v:1, k:poo@cofre, mode:DOWN
 2025-12-14 22:32:20, MOVE, v:1, k:poo@cadastro, mode:DOWN
+2025-12-14 22:32:50, MOVE, v:1, k:poo@zoo, mode:PICK
+2025-12-14 22:32:51, MOVE, v:1, k:poo@zoo, mode:BACK
+2025-12-14 22:32:53, MOVE, v:1, k:poo@zoo, mode:PICK
+2025-12-14 22:34:14, MOVE, v:1, k:poo@zoo, mode:BACK
+2025-12-14 22:34:15, MOVE, v:1, k:poo@pagamento, mode:PICK
+2025-12-14 22:34:16, MOVE, v:1, k:poo@pagamento, mode:BACK
+2025-12-14 22:34:17, MOVE, v:1, k:poo@shapes, mode:PICK
+2025-12-14 22:34:18, MOVE, v:1, k:poo@shapes, mode:BACK
+2025-12-14 22:35:28, MOVE, v:1, k:poo@shapes, mode:PICK
+2025-12-14 23:08:07, MOVE, v:1, k:poo@shapes, mode:BACK
+2025-12-14 23:20:50, MOVE, v:1, k:poo@zoo, mode:PICK
+2025-12-14 23:44:15, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0, size:55
+2025-12-14 23:45:27, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0, size:56
+2025-12-14 23:45:47, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0, size:56
+2025-12-14 23:46:01, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0, size:56
+2025-12-14 23:46:11, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0
+2025-12-14 23:46:11, MOVE, v:1, k:poo@zoo, mode:BACK
+2025-12-14 23:46:21, MOVE, v:1, k:poo@zoo, mode:PICK
+2025-12-14 23:46:22, EXEC, v:1, k:poo@zoo, mode:LOCK, rate:0
+2025-12-14 23:46:23, MOVE, v:1, k:poo@zoo, mode:BACK
+2025-12-14 23:46:32, SELF, v:1, k:poo@zoo
+2025-12-14 23:47:31, SELF, v:1, k:poo@zoo, rate:100, human:Amigo_em_atividade_de_dupla, guide:Ajuda_da_aula_de_introducao, alone:10, study:40
+2025-12-14 23:47:34, MOVE, v:1, k:poo@pagamento, mode:PICK
+2025-12-14 23:47:39, MOVE, v:1, k:poo@pagamento, mode:BACK

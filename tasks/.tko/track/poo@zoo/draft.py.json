@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2025-12-14_23-44-15",
+            "content": "@@ -1191,33 +1191,8 @@\n %7D%22)%0A\n-    print(%22%7C%22)+(%22%5C/%22*20)%0A\n %0A%0AAn\n",
+            "lines": "55"
+        },
+        {
+            "label": "2025-12-14_23-45-27",
+            "content": "@@ -1200,16 +1200,17 @@\n rint(%22%7C%22\n+)\n +(%22%5C/%22*2\n@@ -1211,17 +1211,16 @@\n %22%5C/%22*20)\n-)\n %0A%0A%0AAnima\n",
+            "lines": "56"
+        },
+        {
+            "label": "2025-12-14_23-45-47",
+            "content": "@@ -1199,18 +1199,16 @@\n print(%22%7C\n-%7C%7C\n %22+(%22%5C/%22*\n@@ -1214,16 +1214,8 @@\n *20)\n-+(%22%7C%7C%7C%22)\n )%0A%0A%0A\n",
+            "lines": "56"
+        },
+        {
+            "label": "2025-12-14_23-46-01",
+            "content": "from abc import ABC, abstractmethod\n\nclass Animal(ABC):\n    def __init__(self,name:str=\"\")->None:\n        self.name:str=name\n    \n    def apresentar_nome(self):\n        print(f\"Eu sou um(a) {self.name}\")\n        \n    def fazer_som(self)->None:\n        pass\n    \n    def mover(self)->None:\n        pass\n        \nclass Liao(Animal):\n    def __init__(self,name:str)->None:\n        super().__init__(name)\n        \n    def fazer_som(self):\n        print(\"RAAAHWRRRR\")\n        \n    def mover(self):\n        print(\"*correndo no mei dos mato*\")\n    \nclass Pexe(Animal):\n    def __init__(self,name:str)->None:\n        super().__init__(name)\n        \n    def fazer_som(self):\n        print(\"BLUB BLUB\")\n    \n    def mover(self):\n        print(\"*nadando pra comer a minhoca*\")\n\nclass Mukito(Animal):\n    def __init__(self,name:str)->None:\n        super().__init__(name)\n    \n    def fazer_som(self):\n        print(\"BBBBZZZZZZZZZZZZZZZZZZZ\")\n        \n    def mover(self):\n        print(\"*fazendo bzz enquanto voa, ate morrer pra raquete eletrica*\")\n\ndef apresentar(animal:Animal):\n    animal.apresentar_nome()\n    animal.fazer_som()\n    animal.mover()\n    print(f\"eu sou do tipo :{type(animal).__name__}\")\n    print(\"|||\"+(\"\\/\"*20)+(\"|||\"))\n\n\nAnimais:list[Animal]=[Liao(\"fortaleza\"),Pexe(\"Peixonauta\"),Mukito(\"e a muri\u00e7oka pica pica pica\")]\nfor animal in Animais:\n    apresentar(animal)",
+            "lines": "56"
+        }
+    ]
+}
