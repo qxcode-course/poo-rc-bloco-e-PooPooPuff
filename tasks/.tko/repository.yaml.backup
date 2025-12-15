@@ -21,6 +21,7 @@ expanded:
 tasks:
   poo@zoo: '{rate:100, human:Amigo_em_atividade_de_dupla, guide:Ajuda_da_aula_de_introducao,
     alone:10, study:40}'
+  poo@pagamento: '{rate:30, alone:3, study:10}'
 flags:
   quests: 0
   tracks: 0
