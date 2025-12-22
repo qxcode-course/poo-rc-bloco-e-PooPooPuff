@@ -21,7 +21,7 @@ expanded:
 tasks:
   poo@zoo: '{rate:100, human:Amigo_em_atividade_de_dupla, guide:Ajuda_da_aula_de_introducao,
     alone:10, study:40}'
-  poo@pagamento: '{rate:30, alone:3, study:10}'
+  poo@pagamento: '{rate:70, alone:7, study:25}'
 flags:
   quests: 0
   tracks: 0
@@ -29,4 +29,4 @@ flags:
   graph: 1
   xray: 0
 lang: py
-selected: poo@pagamento
+selected: poo@shapes
