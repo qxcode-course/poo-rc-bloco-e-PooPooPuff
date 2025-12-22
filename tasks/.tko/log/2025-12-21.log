@@ -18,3 +18,5 @@
 2025-12-21 23:57:38, MOVE, v:1, k:poo@shapes, mode:PICK
 2025-12-21 23:57:39, EXEC, v:1, k:poo@shapes, mode:FULL, rate:0, size:0
 2025-12-21 23:58:05, MOVE, v:1, k:poo@shapes, mode:BACK
+2025-12-21 23:58:23, MOVE, v:1, k:poo@shapes, mode:PICK
+2025-12-21 23:58:26, EXEC, v:1, k:poo@shapes, mode:FULL, rate:0
